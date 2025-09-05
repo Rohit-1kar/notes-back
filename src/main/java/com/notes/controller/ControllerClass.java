@@ -19,7 +19,7 @@ import com.notes.entity.Notes;
 import com.notes.repository.InterfaceRepository;
 
 @RestController
-@CrossOrigin(origins = {"http://localhost:5173","http://localhost:3000"})
+@CrossOrigin(origins = {"http://localhost:5173","http://localhost:3000","https://your-project.vercel.app"})
 public class ControllerClass {
   
 	@Autowired
